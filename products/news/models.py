@@ -8,7 +8,7 @@ class Products(models.Model):
     sena = models.IntegerField('Цена')
     gram = models.IntegerField('Грам')
     def __str__(self):
-        return self.name
+        return  self.name
     class Meta:
         verbose_name = "Product"
         verbose_name_plural = "Products"
